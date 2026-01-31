@@ -169,11 +169,37 @@ Built an interactive dashboard using the final cleaned dataset.
 
 ## Files in This Repository
 
-- `Vendor_Performance_Analysis.ipynb` – Full Python analysis notebook
-- `get_vendor_summary.py` – Automated script for table creation and cleaning
-- `inventory.db` – Database containing final vendor summary table
-- `PowerBI_Dashboard.pbix` – Power BI dashboard file
-- `FINAL_PROJECT_VENDOR_PERFORMANCE_ANALYSIS_PROJECT.pdf` – Detailed project report
+This repository contains all files related to the **Vendor Performance Analysis Dashboard** project, including data ingestion, analysis, database management, and visualization.
+
+- **`vendor_performance_analysis.ipynb`**  
+  End-to-end Python notebook performing data cleaning, analysis, and insight generation.
+
+- **`exploratory_data_analysis.ipynb`**  
+  Notebook dedicated to Exploratory Data Analysis (EDA) for understanding data patterns, trends, and anomalies.
+
+- **`ingestion_db.py`**  
+  Python script responsible for ingesting raw data into the database.
+
+- **`get_vendor_summary.py`**  
+  Automated Python script for data cleaning, transformation, and creation of the final vendor summary table.
+
+- **`inventory.db`**  
+  SQLite database containing the finalized vendor performance summary table.
+
+- **`PowerBI_Dashboard.pbix`** *(available via external link due to size constraints)*  
+  Interactive Power BI dashboard built using the processed vendor data.
+
+- **`VENDOR_PERFORMANCE_ANALYSIS_Dashboard.pdf`**  
+  Static PDF export of the Power BI dashboard for quick viewing.
+
+- **Dataset File** *(available via external link)*  
+  Raw dataset used for analysis and dashboard development.
+
+---
+
+### 📎 Note on Large Files
+Due to GitHub file size limitations, large files such as the Power BI dashboard (`.pbix`) and dataset are hosted externally. Download links are provided within this repository.
+
 
 ---
 
@@ -214,3 +240,4 @@ Aspiring Data Analyst | Data Science Enthusiast | Business Analytics
 
 
 ---
+
